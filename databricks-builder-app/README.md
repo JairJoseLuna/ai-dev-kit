@@ -178,8 +178,7 @@ Skills provide specialized guidance for Databricks development tasks. They are m
 
 Skills include:
 - **databricks-bundles**: DABs configuration
-- **databricks-app-apx**: Full-stack apps with APX framework (FastAPI + React)
-- **databricks-apps-python**: Python apps with Dash, Streamlit, Flask
+- **databricks-apps-python**: Databricks Apps with AppKit (TypeScript + React) and Python frameworks (Dash, Streamlit, Flask)
 - **databricks-python-sdk**: Python SDK patterns
 - **databricks-mlflow-evaluation**: MLflow evaluation and trace analysis
 - **databricks-spark-declarative-pipelines**: Spark Declarative Pipelines (SDP) development
@@ -312,8 +311,7 @@ Skills are loaded from `../databricks-skills/` and filtered by the `ENABLED_SKIL
 - `databricks-python-sdk`: Patterns for using the Databricks Python SDK
 - `databricks-spark-declarative-pipelines`: SDP/DLT pipeline development
 - `databricks-synthetic-data-gen`: Creating test datasets
-- `databricks-app-apx`: Full-stack apps with React (APX framework)
-- `databricks-apps-python`: Python apps with Dash, Streamlit, Flask
+- `databricks-apps-python`: Databricks Apps with AppKit (TypeScript + React) and Python frameworks (Dash, Streamlit, Flask)
 
 **Adding custom skills:**
 1. Create a new directory in `../databricks-skills/`

@@ -22,17 +22,8 @@ SKILL_TRIGGERS = {
         "scd",
         "auto loader",
     ],
-    # APX = FastAPI + React full-stack. "fastapi react" triggers APX specifically;
-    # bare "fastapi" triggers python skill. A prompt mentioning both (e.g. "FastAPI React app")
-    # will correctly match both skills, letting the router pick the best fit.
-    "databricks-app-apx": [
-        "databricks app",
-        "apx",
-        "full-stack app",
-        "fastapi react",
-        "react frontend",
-    ],
     "databricks-apps-python": [
+        "databricks app",
         "python app",
         "streamlit",
         "dash",
@@ -42,6 +33,7 @@ SKILL_TRIGGERS = {
         "reflex",
         "dashboard app",
         "data app",
+        "full-stack app",
     ],
     "databricks-bundles": ["dabs", "databricks asset bundle", "deploy", "bundle.yaml"],
     "databricks-python-sdk": [
