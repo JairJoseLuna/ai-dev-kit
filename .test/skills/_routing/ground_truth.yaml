@@ -216,7 +216,7 @@ test_cases:
       difficulty: "medium"
       reasoning: "Combines 'Gradio' (app-python) with 'model serving' (model-serving)"
 
-  # FastAPI React maps to the Python app skill (which covers AppKit + Python frameworks)
+  # FastAPI React maps to the Python app skill (Dash, Streamlit, Flask, FastAPI, etc.)
   - id: "routing_fastapi_react_001"
     inputs:
       prompt: "Create a FastAPI React app for my dashboard"
@@ -227,7 +227,7 @@ test_cases:
     metadata:
       category: "single_skill"
       difficulty: "medium"
-      reasoning: "'fastapi' triggers databricks-apps-python, which covers AppKit (TypeScript + React) and Python frameworks."
+      reasoning: "'fastapi' triggers databricks-apps-python, which covers the Python app frameworks (Dash, Streamlit, Flask, FastAPI)."
 
   # No skill match
   - id: "routing_no_match_001"

@@ -102,8 +102,8 @@ class TestDetectSkillsFromPrompt:
     def test_detect_fastapi_react_matches_python(self):
         """Test that a 'FastAPI React' prompt matches the Python app skill.
 
-        Bare 'fastapi' triggers databricks-apps-python, which covers AppKit
-        (TypeScript + React) alongside the Python frameworks.
+        Bare 'fastapi' triggers databricks-apps-python, which covers the
+        Python app frameworks (Dash, Streamlit, Flask, FastAPI).
         """
         prompt = "Create a FastAPI React app for my dashboard"
         skills = detect_skills_from_prompt(prompt)
